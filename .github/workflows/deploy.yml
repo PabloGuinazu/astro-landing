@@ -24,4 +24,7 @@ jobs:
           with:
             branch: main
             folder: dist
+          env:
+            ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+
         
